@@ -1,0 +1,7 @@
+# ninja log v6
+8	2253	7861562240105520	CMakeFiles/test_activation.dir/tests/test_activation.cpp.obj	9528874e707268d4
+2258	2623	7861562262602537	test_activation.exe	906f0b2b8c745f2d
+22	1986	7861562451951363	CMakeFiles/neural_net_demo.dir/src/Network.cpp.obj	623eee7b21705016
+30	2018	7861562452020833	CMakeFiles/neural_net_demo.dir/src/layers/Dense.cpp.obj	842f0c0dba1f5764
+13	2299	7861562451855061	CMakeFiles/neural_net_demo.dir/src/main.cpp.obj	ecd55ddfcb284dc4
+2299	2617	7861562474714957	neural_net_demo.exe	618b98d5d5a70a8c
