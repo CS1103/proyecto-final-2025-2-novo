@@ -675,35 +675,38 @@ g++ src/main_large.cpp src/Network.cpp src/layers/Dense.cpp \
 \subsubsection{Salida Esperada del Demo Grande}
 
 \begin{verbatim}
-=== Large-Scale Neural Network Training Demo ===
-Generating synthetic dataset...
-Samples: 1000
-Input dimensions: 10
-Output dimensions: 1
+=== Demo de Entrenamiento de Red Neuronal a Gran Escala ===
+Este demo entrena con un dataset sintético más grande para demostrar
+el rendimiento en problemas más realistas (~2-3 minutos de entrenamiento)
 
-Building neural network architecture...
-Architecture: 10 -> 50 -> 30 -> 10 -> 1
+Generando dataset sintético...
+Muestras: 1000
+Dimensiones de entrada: 10
+Dimensiones de salida: 1
 
-Training parameters:
-Epochs: 1000
-Learning rate: 0.01
+Construyendo arquitectura de red neuronal...
+Arquitectura: 10 -> 50 -> 30 -> 10 -> 1
 
-Starting training...
-(This will take approximately 2-3 minutes)
+Parámetros de entrenamiento:
+Épocas: 1000
+Tasa de aprendizaje: 0.01
+
+Iniciando entrenamiento...
+(Esto tomará aproximadamente 2-3 minutos)
 
 Epoch 100/1000 error=0.234
 Epoch 200/1000 error=0.189
 ...
 Epoch 1000/1000 error=0.0234
 
-Training completed!
-Total training time: 156 seconds (2m 36s)
+¡Entrenamiento completado!
+Tiempo total de entrenamiento: 156 segundos (2m 36s)
 
-=== FINAL PRECISION (Full Dataset) ===
-Binary Classification Accuracy: 92.5% (925/1000 correct)
-Mean Absolute Error (MAE): 0.0823
-Numerical Precision: 91.77%
-=======================================
+=== PRECISIÓN FINAL (Dataset Completo) ===
+Precisión de Clasificación Binaria: 92.5% (925/1000 correctas)
+Error Absoluto Medio (MAE): 0.0823
+Precisión Numérica: 91.77%
+===========================================
 \end{verbatim}
 
 \textbf{Nota:} Este demo demuestra el rendimiento en un problema más realista y justifica el tiempo de entrenamiento de $\sim$2m30s mencionado en las especificaciones del proyecto.

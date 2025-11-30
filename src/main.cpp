@@ -4,9 +4,9 @@
 #include "layers/Activation.h"
 
 int main() {
-    // XOR Problem
-    // Inputs: (0,0), (0,1), (1,0), (1,1)
-    // Outputs: 0, 1, 1, 0
+    // Problema XOR
+    // Entradas: (0,0), (0,1), (1,0), (1,1)
+    // Salidas: 0, 1, 1, 0
 
     Matrix X(4, 2);
     X.data = {{0, 0}, {0, 1}, {1, 0}, {1, 1}};
@@ -20,10 +20,10 @@ int main() {
     net.add(new Dense(3, 1));
     net.add(new Tanh()); 
 
-    // Train
+    // Entrenar
     net.train(X, Y, 10000, 0.1);
 
-    // Test
+    // Probar
     Matrix prediction = net.predict(X);
     std::cout << "\nPredictions:" << std::endl;
     prediction.print();
