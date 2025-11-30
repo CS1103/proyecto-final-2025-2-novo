@@ -11,8 +11,9 @@ set(LIB_SOURCES
     src/layers/Dense.cpp
 )
 
-# Main executable
+# Main executables
 add_executable(neural_net_demo src/main.cpp ${LIB_SOURCES})
+add_executable(neural_net_large_demo src/main_large.cpp ${LIB_SOURCES})
 
 # Test executables
 add_executable(test_matrix tests/test_matrix.cpp)

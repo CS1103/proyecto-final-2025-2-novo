@@ -15,7 +15,6 @@ void test_xor_training() {
     Matrix Y(4, 1);
     Y.data = {{0}, {1}, {1}, {0}};
     
-    // Create network
     Network net;
     net.add(new Dense(2, 4));
     net.add(new Tanh());

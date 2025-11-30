@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -53,29 +55,36 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "neural_net_large_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-neural_net_large_demo-Debug-9518fce17202bebcbca0.json",
+					"name" : "neural_net_large_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "test_activation::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_activation-Debug-b608150009992997c745.json",
+					"jsonFile" : "target-test_activation-Debug-dad2f6220d85e6c16c35.json",
 					"name" : "test_activation",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_dense::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_dense-Debug-a216364fcd3274a6327b.json",
+					"jsonFile" : "target-test_dense-Debug-872861397286e438030e.json",
 					"name" : "test_dense",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_matrix::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_matrix-Debug-c2de0d597c5ef49c7d89.json",
+					"jsonFile" : "target-test_matrix-Debug-7eed659ebe229faa8493.json",
 					"name" : "test_matrix",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_xor::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_xor-Debug-700fb49a4b852cece58e.json",
+					"jsonFile" : "target-test_xor-Debug-6fd7bd49d9c074aa6d9e.json",
 					"name" : "test_xor",
 					"projectIndex" : 0
 				}
