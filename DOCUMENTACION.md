@@ -8,6 +8,19 @@ El proyecto está diseñado con fines educativos para demostrar los fundamentos 
 
 ---
 
+## 📹 Video Demostración del Proyecto
+
+**[Ver Video Explicativo Completo](https://drive.google.com/drive/folders/124kfF8cgNvq49oHU7IwM7Y30CCYBtBm2?usp=sharing)**
+
+El video incluye:
+- 🎯 Explicación detallada de la arquitectura de la red neuronal
+- 🚀 Demostración en vivo del entrenamiento (XOR y dataset grande ~2-3 minutos)
+- 📊 Análisis de resultados y métricas de precisión
+- 💻 Recorrido por el código fuente y explicación de componentes clave
+- 🧪 Ejecución de pruebas unitarias
+
+---
+
 ## Características Principales
 
 - ✅ **Implementación desde cero**: No depende de bibliotecas como TensorFlow o PyTorch

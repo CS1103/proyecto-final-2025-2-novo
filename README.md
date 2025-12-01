@@ -4,7 +4,17 @@
 
 ### **Descripción**
 
-> Ejemplo: Implementación de una red neuronal multicapa en C++ para clasificación de dígitos manuscritos.
+> Implementación de una red neuronal multicapa desde cero en C++ para clasificación binaria, sin utilizar bibliotecas de aprendizaje automático externas.
+
+### **📹 Video Demostración**
+
+**[Ver Video Explicativo del Proyecto](https://drive.google.com/drive/folders/124kfF8cgNvq49oHU7IwM7Y30CCYBtBm2?usp=sharing)**
+
+El video incluye:
+- Explicación de la arquitectura de la red neuronal
+- Demostración del entrenamiento (XOR y dataset grande)
+- Análisis de resultados y métricas de precisión
+- Recorrido por el código fuente
 
 ### Contenidos
 
